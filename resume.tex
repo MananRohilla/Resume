@@ -1,0 +1,157 @@
+%-------------------------
+% Resume in Latex (Kotlin / Android Focused)
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+
+\definecolor{lightblue}{RGB}{78, 159, 230}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.35in}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\color{lightblue}
+}{}{0em}{}[\color{lightblue}\titlerule \vspace{-6pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item[\textendash] \small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge \scshape Manan} \\ \vspace{1pt}
+  Faridabad, India $|$ +91 9810455915 $|$
+  \href{mailto:mananr0135@gmail.com}{mananr0135@gmail.com} $|$
+  \href{https://www.linkedin.com/in/manan-rohilla-074855175/}{LinkedIn \faLinkedin} $|$
+  \href{https://github.com/MananRohilla}{GitHub \faGithub}
+\end{center}
+
+%--------------Summary-----------------
+\section{Summary}
+\resumeSubHeadingListStart
+\item{}
+Software Development Engineer with 1.5 years of experience building mobile applications and a strong foundation in Flutter Android development. Skilled in mobile app architecture, REST API integration, and state management. Familiar with MVVM, clean architecture principles, and performance optimization techniques. Passionate about developing efficient, user-friendly mobile applications and continuously improving Android development skills.
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt]
+\small{
+\item \textbf{Languages:} C/C++, Dart, Python
+\item \textbf{Android:} Jetpack Compose, ViewModel, LiveData, Navigation
+\item \textbf{Architecture:} MVVM, Clean Architecture, Repository Pattern
+\item \textbf{Frameworks:} Android SDK, Flutter
+\item \textbf{Networking:} REST APIs, Retrofit, JSON
+\item \textbf{Tools:} Git, GitHub, Android Studio, VS Code, Jira, Slack
+\item \textbf{Databases:} Room, Firebase, SQL
+}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Development Engineer - I }{Oct 2025 -- Present}
+{Sanora India Pvt Ltd}{}
+\resumeItemListStart
+\resumeItem{Developed scalable mobile applications with a strong focus on Android architecture principles and performance optimization.}
+\resumeItem{Implemented clean architecture patterns (MVVM) ensuring modular, testable, and maintainable codebases.}
+\resumeItem{Integrated RESTful APIs for authentication, content delivery, and real-time features with efficient error handling.}
+\resumeItem{Contributed around 15 major features, over 10,000+ lines of production code across 2 live projects, and resolved 100+ critical bugs.}
+\resumeItem{Optimized UI performance and navigation flows for smooth user interaction across complex screens.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Associate Software Developer}{Oct 2024 -- Oct 2025}
+{SwaLay Digital}{}
+\resumeItemListStart
+\resumeItem{Built a strong foundation in Flutter development by working on scalable and high-performance cross-platform applications.}
+\resumeItem{Gained in-depth understanding of core Flutter concepts including widgets, layouts, navigation, and lifecycle management.}
+\resumeItem{Implemented efficient state management using Provider, Riverpod, and setState to ensure smooth and maintainable app performance.}
+\resumeItem{Collaborated on designing responsive and user-friendly UI, improving overall user experience across Android and iOS platforms.}
+\resumeItem{Optimized application performance and reduced build times through code refactoring and best practices.}
+\resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Subject mastery}}{}
+\resumeItemListStart
+\resumeItem{Designed a scalable mobile application following clean architecture and MVVM concepts.}
+\resumeItem{Implemented authentication flows and secure session handling.}
+\resumeItem{Built interactive UI components and optimized performance for real-time user engagement.}
+\resumeItem{Integrated ML-based detection features to enhance assessment integrity.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Mind Trainer}}{}
+\resumeItemListStart
+\resumeItem{Developed a structured mobile application using scalable architecture patterns.}
+\resumeItem{Implemented background task scheduling and notification systems.}
+\resumeItem{Focused on performance optimization and smooth navigation experience.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{QuestAI -- AI Agent}}{}
+\resumeItemListStart
+\resumeItem{Built a full-stack AI-powered system with real-time communication.}
+\resumeItem{Implemented WebSocket-based streaming and resilient backend architecture.}
+\resumeItem{Focused on high availability and fault-tolerant system design.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{JSS Academy of Technical Education, Noida}{Aug 2021 -- Jul 2025}
+{Bachelor of Technology in Information Technology}{}
+
+\resumeSubheading
+{CBN Sr. Sec. School}{Apr 2020 -- Jun 2021}
+{Higher Secondary Education}{}
+
+\end{document}
