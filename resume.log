@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.1)  23 APR 2026 12:39
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.1)  23 APR 2026 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,7 +403,12 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 62
 .
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [1
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 122.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 122.
+ [1
 
 ] (./resume.aux)
  ***********
@@ -418,12 +423,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 48713C5D929FB9CCE0BE1D627280E60B;415.
  ) 
 Here is how much of TeX's memory you used:
- 12964 strings out of 467992
- 248651 string characters out of 5431321
+ 12987 strings out of 467992
+ 248959 string characters out of 5431321
  734574 words of memory out of 5000000
- 41739 multiletter control sequences out of 15000+600000
- 628527 words of font info for 60 fonts, out of 8000000 for 9000
+ 41751 multiletter control sequences out of 15000+600000
+ 630578 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,7n,106p,475b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.xdv (1 page, 36740 bytes).
+Output written on resume.xdv (1 page, 37272 bytes).

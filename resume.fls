@@ -131,6 +131,14 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 OUTPUT resume.xdv
 INPUT resume.aux
 INPUT ./resume.out

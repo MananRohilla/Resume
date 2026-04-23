@@ -1,15 +1,23 @@
 # Fdb version 4
-["xdvipdfmx"] 1776947959.0398 "resume.xdv" "resume.pdf" "resume" 1776947959.33334 0
-  "resume.xdv" 1776947958.99531 36740 6df183f02f5a4756b0c4abae0a0ec3c1 "xelatex"
+["xdvipdfmx"] 1776948312.55289 "resume.xdv" "resume.pdf" "resume" 1776948312.88811 0
+  "resume.xdv" 1776948312.50689 37272 10762ba0c0e8e09c7f85fb495cf63386 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1776947958.36628 "resume.tex" "resume.xdv" "resume" 1776947959.33221 0
+["xelatex"] 1776948311.82689 "resume.tex" "resume.xdv" "resume" 1776948312.88672 0
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1136768653 1524 d89e2d087a9828407a196f428428ef4a ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1136768653 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm" 1136768653 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm" 1136768653 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm" 1136768653 520 1cc7cc05f4d7bae5c23bf7516f88fa52 ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty" 1576016050 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty" 1576625223 8371 9d55b8bd010bc717624922fb3477d92e ""
@@ -63,9 +71,9 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1775014713 5954837 05b517c1a452f7b5a408af38e6f5d7bd ""
   "/opt/texlive/texdir/texmf.cnf" 1775014585 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "resume.aux" 1776947958.99431 653 269283a4ba87bf627dc1ff1cefa94216 "xelatex"
-  "resume.out" 1776947958.99531 415 48713c5d929fb9cce0be1d627280e60b "xelatex"
-  "resume.tex" 1776947873.79463 6208 f945645116dece277cf1cdc9ff1c62dd ""
+  "resume.aux" 1776948312.50589 653 269283a4ba87bf627dc1ff1cefa94216 "xelatex"
+  "resume.out" 1776948312.50689 415 48713c5d929fb9cce0be1d627280e60b "xelatex"
+  "resume.tex" 1776948225.39148 6316 8ea3fcf478adbe252413600b14780242 ""
   (generated)
   "resume.aux"
   "resume.log"
