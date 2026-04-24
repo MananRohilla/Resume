@@ -40,12 +40,20 @@ jobs:
           latexmk_use_xelatex: true
           args: -xelatex -file-line-error -halt-on-error -interaction=nonstopmode
 
+      - name: Build Flutter/Mobile resume (backward compat)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resume.tex
+          latexmk_use_xelatex: true
+          args: -xelatex -file-line-error -halt-on-error -interaction=nonstopmode
+
       - name: Collect PDFs into dist/
         run: |
           mkdir -p dist
           cp resumes/mern/resume.pdf dist/mern.pdf
           cp resumes/backend/resume.pdf dist/backend.pdf
           cp resumes/frontend/resume.pdf dist/frontend.pdf
+          cp resume.pdf dist/resume.pdf
           cp index.html dist/index.html
 
       - name: Deploy to GitHub Pages
