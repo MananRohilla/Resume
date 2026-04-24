@@ -1,0 +1,53 @@
+name: Build and Deploy Resume Variants
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build MERN resume
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resumes/mern/resume.tex
+          latexmk_use_xelatex: true
+          args: -xelatex -file-line-error -halt-on-error -interaction=nonstopmode
+
+      - name: Build Backend resume
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resumes/backend/resume.tex
+          latexmk_use_xelatex: true
+          args: -xelatex -file-line-error -halt-on-error -interaction=nonstopmode
+
+      - name: Build Frontend resume
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resumes/frontend/resume.tex
+          latexmk_use_xelatex: true
+          args: -xelatex -file-line-error -halt-on-error -interaction=nonstopmode
+
+      - name: Collect PDFs into dist/
+        run: |
+          mkdir -p dist
+          cp resumes/mern/resume.pdf dist/mern.pdf
+          cp resumes/backend/resume.pdf dist/backend.pdf
+          cp resumes/frontend/resume.pdf dist/frontend.pdf
+          cp index.html dist/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          destination_dir: .
